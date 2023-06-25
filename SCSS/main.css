@@ -1,0 +1,39 @@
+/********IMPORT**********/ /*********RESET****************/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+/*********COLORS********/
+/*********FONTS**********/
+/********FONT-SIZE******/
+.contact {
+  background-color: #1f2039;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+.__input {
+  margin: 50px;
+  display: flex;
+  margin: 20px;
+}
+
+label {
+  color: white;
+}
+
+.__textarea {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #A5B4FC;
+  font-size: #A5B4FC;
+}/*# sourceMappingURL=main.css.map */
