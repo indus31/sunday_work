@@ -1,0 +1,33 @@
+/********IMPORT**********/
+@import 'BASE/bases.scss';
+@import 'UTILS/variables.scss';
+@import 'UTILS/mixin.scss';
+@import 'UTILS/extend.scss';
+
+.contact{
+    background-color:$primary-color;
+    display:flex;
+    flex-direction: column;
+    gap:50px;
+    align-items: center;
+}
+.__input{
+    margin:50px;
+    display:flex;
+    margin:20px;
+}        
+        
+label{
+    color:white;
+}
+
+   
+.__textarea{
+    margin:50px;
+    display:flex;
+    flex-direction: column;
+}
+h1{
+    color:$h1-color;
+    font-size:$h1-color;
+}
